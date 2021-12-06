@@ -1,0 +1,106 @@
+/* Version 1.0 */
+
+body {
+    background: white none;
+}
+.container #home{
+    display:inline-grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 80vh;
+    grid-gap: 30px;
+    grid-template-areas:
+    "hd"
+    "main"
+    "ft";
+    border: 1px solid midnightblue;
+}
+
+.container #blog-post{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
+    grid-gap: 30px;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "main main"
+    "sd sd"
+    "ft";
+    border: none;
+}
+/* add css for nested grid here */
+.nestedGrid {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 30px;
+}
+
+.box{
+    border: 1px solid red;
+    }
+  .header{
+      grid-area:hd;
+      margin: 10px;
+  }
+  .footer{
+    grid-area:ft;
+  }
+  .sidebar{
+    grid-area:sd;
+  }
+  .content{
+    grid-area:main;
+  }
+.blog-tile {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+/* index.html */
+/* Kachel auf der Startseite */
+/* als nested Content anlegen. */
+/* index.html in display grid */
+.blog-tile {
+    border: 1px solid darkgrey;
+}
+.date {
+    color: grey;
+}
+.blog-tile .description {
+    color: grey;
+}
+
+#box-1 {
+    background-image: url("../images/bread-highres.jpg");
+    /* width: 1920px;
+    height: 1077px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box-2 {
+    background-image: url("../images/bun-highres.jpg");
+    /* width: 1920px;
+    height: 1077px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Typography */
+.text-centered {text-align:center;}
+.date {    color: grey; }
+/* Media Queries kommen später dran */
+@media(min-width:900px){
+.container{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd sd main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+    border: 2px solid red;
+  }
+
+}
