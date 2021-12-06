@@ -91,15 +91,15 @@ body {
 .text-centered {text-align:center;}
 .date {    color: grey; }
 /* Media Queries kommen später dran */
-@media(min-width:900px){
-.container{
+@media(min-width:600px){
+.container #home{
     display:grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 250px 600px;
     grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "sd sd main main main main main main"
-    "ft ft ft ft ft ft ft ft";
+    "hd hd hd hd"
+    "main main main main"
+    "ft ft ft ft";
     border: 2px solid red;
   }
 
