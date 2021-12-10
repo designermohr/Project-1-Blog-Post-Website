@@ -1,0 +1,82 @@
+/*
+File: style-typography.css
+Version: 1.0.1
+Date: 10.12.2021
+*/
+
+/* Typography */
+p, .p, .btn, figure, figcaption {
+    color: #12161a;
+    font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+#home p, #home .p {
+    color: #grey;
+    font-family: "Arial", Helvetica, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #12161a;
+    font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
+    font-weight: 500;
+}
+h2 {margin: 0.5em 0; font-size: 1.8em;}
+.h2 a:hover {
+    color: red;
+}
+.description {
+    font-size: 0.8em;
+}
+li, .li {
+    font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+a { text-decoration: none; color: midnightblue;}
+a:hover { color: red; }
+a:hover .article-image {
+    border: 2px solid red;
+}
+.date {
+    color: #A4A4A4;
+    font-size: 0.7em;
+}
+.blog-tile .description {
+    color: grey;
+}
+
+blockquote {
+    border: 4px solid #B45F04;
+    margin: 6vw;
+}
+blockquote p {
+    color: #B45F04;
+    font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+
+}
+
+.box-author p {font-style: italic;}
+.box-archives h3,
+.box-author h3 {
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+.text-centered {text-align:center;}
+
+figcaption {
+    padding: .8em;
+    text-align: center;
+    color: grey;
+    font-size: 1em;
+}

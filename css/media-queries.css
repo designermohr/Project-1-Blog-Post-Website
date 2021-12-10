@@ -1,0 +1,215 @@
+/*
+File: media-queries-desktop.css
+Version: 1.0.2
+Date: 10.12.2021
+*/
+
+/* less 900 px Screen width for Smartphone */
+@media (max-width:799px) {
+    body {
+        width: 96%;
+        }
+
+    .header {
+        height: 6vh;
+        }
+
+    #site-author {
+        width: 20vw;
+        }
+
+    #site-name {
+        width: 60vw;
+        }
+
+    #site-nav-btns-social-media {
+        width: 20vw;
+        }
+
+    .social-media-icons {
+        height: 18px;
+        width: 18px;
+        }
+
+    #site-author h3 {
+        font-size: 4vw;
+        }
+
+    #site-name h1 {
+        font-size: 6vw;
+        }
+
+    .container-blog-post {
+        display:grid;
+        grid-gap: 5vw;
+        grid-template-areas:
+        "hd"
+        "main"
+        "sd"
+        "ft";
+        }
+
+    .content {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+    .nested-grid-home-content {
+        width: 100%;
+        flex-direction: column;
+        grid-gap: 30px;
+        }
+
+    .blog-tile {
+        width: 100%;
+        margin-bottom: 2vh;
+        }
+
+    .article-image {
+        height: 15vh;
+        width: 100%;
+        background-size: 100%;
+        }
+
+    .recipe-image {
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+        margin-left: 0;
+        }
+
+    blockquote {
+        padding: 0 10px;
+        }
+
+    .sidebar {
+        margin-top: 10vh;
+        }
+
+    .preparation-steps p {
+        font-size: 1.2em;
+        }
+
+    .preparation-steps blockquote p {
+        font-size: 1.4em;
+        }
+    .box-author .author-img {
+        max-width: 50%;
+        }
+}
+
+/* more then 900 px Screen width for Desktop Monitor */
+@media (min-width:800px){
+
+    body {
+        width: 98%;
+        }
+
+    .header {
+        height: 16vh;
+        }
+
+    .nested-grid-nav {
+        height: 5vh;
+        grid-gap: 30px;
+        }
+
+    #site-author h3 {
+        font-size: 2em;
+        }
+
+    #site-name h1 {
+        font-size: 4em;
+        text-align: center;
+        }
+
+    #site-author {
+        width: 15vw;
+        }
+
+    #site-name {
+        width: 70vw;
+        }
+
+    #site-nav-btns-social-media {
+        width: 15vw;
+        }
+
+    .social-media-icons {
+        height: 26px;
+        width: 26px;
+        }
+
+    .container-blog-post {
+        display:grid;
+        grid-template-columns: 35vw 35vw 15vw;
+        grid-gap: 5vw;
+        grid-template-areas:
+        "hd hd hd"
+        "main main sd"
+        "ft ft ft";
+        }
+
+    .nested-grid-home-content {
+        flex-direction: rows;
+        align-items: flex-start;
+        align-content: space-between;
+        justify-content: center;
+        grid-gap: 60px;
+        }
+
+    .container-home {
+        grid-gap: 16px;
+        }
+
+    .blog-tile {
+        width: 300px;
+        min-height: 300px;
+        height: auto;
+        }
+
+    .article-image {
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        }
+
+    .container-blog-post .content {
+        width: 60vw;
+        margin-left: 10vw;
+        }
+
+    .container-blog-post .article-image {
+        height: 30vh;
+        width: 100%;
+        background-size: cover;
+        }
+
+    .container-blog-post h1 {
+        font-size: 3em;
+        }
+
+    .recipe-image {
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+        margin-left: 0;
+        }
+
+    .preparation-steps p {
+        font-size: 1.4em;
+        }
+
+    .preparation-steps blockquote p {
+        font-size: 1.5em;
+        }
+
+    blockquote {
+        padding: 0 60px;
+        }
+
+    .box-author .author-img {
+        width: 100%;
+        }
+}

@@ -1,0 +1,28 @@
+/*
+File: style-images.css
+Version: 1.0.1
+Date: 10.12.2021
+*/
+
+
+/* images - index.html */
+#article-1 .article-image {
+    background-image: url("../images/muffins-highres.jpg");
+    }
+
+#article-2 .article-image {
+    background-image: url("../images/pancakes-small-highres.jpg");
+    }
+
+#article-3 .article-image {
+    background-image: url("../images/bread-highres.jpg");
+    }
+
+#article-4 .article-image {
+    background-image: url("../images/pancakes-highres.jpg");
+    }
+
+#article-5 .article-image {
+    background-image: url("../images/bun-highres.jpg");
+}
+

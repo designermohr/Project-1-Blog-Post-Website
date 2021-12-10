@@ -8,55 +8,86 @@
         <title>index.html - Olivers Blog-Post Website</title>
 
         <link rel="stylesheet" href="css/style.css">
+
     </head>
     <body>
-        <div class="container" id="home">
-            <div class="header box text-centered"><h1>Oliver Blog-Post-Website - File: index.html</h1></div>
-            <div class="content box">
-                <div class="nestedGrid">
-                    <!-- Blog Entry 1 -->
-                    <div id="box-1" class="blog-tile">
-                        <p class="date">03.12.2021</p>
-                        <h2>Blog Entry 1 - Bread</h2>
-                        <h3>Subtitle h3</h3>
-                        <p class="description">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li ...</p>
-                        <a href="blogpost.html">... read more</a>
+        <div class="container-home" id="home">
+            <div class="header">
+                <div class="nested-grid-nav">
+                    <div id="site-author">
+                        <h3>Oliver's</h3>
                     </div>
-                    <!-- Blog Entry 2 -->
-                    <div id="box-2" class="blog-tile">
-                        <p class="date">02.12.2021</p>
-                        <h2>Blog Entry 2 - Title h2</h2>
-                        <h3>Subtitle h3</h3>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                        <a href="blogpost.html">... read more</a>
+                    <div id="site-name">
+                        <a href="index.html"><h1>Home Baking</h1></a>
                     </div>
-                    <!-- Blog Entry 3 -->
-                    <div class="blog-tile">
-                        <p class="date">01.12.2021</p>
-                        <h2>Blog Entry 3 - Title h2</h2>
-                        <h3>Subtitle h3</h3>
-                        <p class="description">Croissant jelly beans marzipan sugar plum gummi bears cake. Chocolate bar wafer candy caramels sweet. Topping jelly-o toffee soufflé pudding chupa chups chocolate bar cotton candy croissant. Cheesecake chocolate bar pastry bear claw carrot cake.</p>
-                        <a href="blogpost.html">... read more</a>
-                    </div>
-                    <!-- Blog Entry 4 -->
-                    <div class="blog-tile">
-                        <p class="date">30.11.2021</p>
-                        <h2>Blog Entry 4 - Title h2</h2>
-                        <h3>Subtitle h3</h3>
-                        <p class="description">Danish pie shortbread wafer gummies chupa chups ice cream. Oat cake gingerbread tootsie roll jelly beans sweet marzipan. Icing icing soufflé brownie sweet chupa chups. ...</p>
-                        <a href="blogpost.html">... read more</a>
-                    </div>
-                    <!-- Blog Entry 5 -->
-                    <div class="blog-tile">
-                        <p class="date">29.11.2021</p>
-                        <h2>Blog Entry 5 - Title h2</h2>
-                        <h3>Subtitle h3</h3>
-                        <p class="description">Apple pie halvah muffin cake tootsie roll soufflé gingerbread chocolate cake halvah. Sesame snaps marshmallow sweet liquorice topping chocolate cake. Muffin bear claw croissant jujubes cake cake. ... </p>
-                        <a href="blogpost.html">... read more</a>
+                    <div id="site-nav-btns-social-media">
+                        <ul class="navbar">
+                            <li class="navbar-item">
+                                <a href="https://www.twitter.com/" target="_blank">
+                                    <img src="icons/twitter.png" alt="Go to Twitter" class="social-media-icons">
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                               <a href="https://www.facebook.com/" target="_blank">
+                                    <img src="icons/facebook.png" alt="Go to Facebook" class="social-media-icons">
+                               </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="https://www.linkedin.com/" target="_blank">
+                                    <img src="icons/linkedin.png" alt="Go to Linkedin" class="social-media-icons">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="footer box text-centered">Footer</div>
+            <div class="content">
+                <div class="nested-grid-home-content">
+                    <!-- Blog Entry 1 -->
+                    <div id="article-1" class="blog-tile">
+                        <a href="blogpost.html"><div class="article-image"></div></a>
+                        <p class="date">03.12.2021</p>
+                        <a href="blogpost.html"><h2>Juicy Blueberry Muffins</h2></a>
+                        <p class="description">This recipe for juicy blueberry muffins is very easy to prepare and always goes down well.</p>
+                        <a href="blogpost.html"><div class="btn btn-outline-normal">Read more</div></a>
+                    </div>
+                    <!-- Blog Entry 2 -->
+                    <div id="article-2" class="blog-tile">
+                        <a href="blogpost.html"><div class="article-image"></div></a>
+                        <p class="date">02.12.2021</p>
+                            <a href="blogpost.html"><h2>Blog Entry 2 - Title h2</h2></a>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <a href="blogpost.html"><div class="btn btn-outline-normal">Read more</div></a>
+                    </div>
+                    <!-- Blog Entry 3 -->
+                    <div id="article-3" class="blog-tile">
+                        <a href="blogpost.html"><div class="article-image"></div></a>
+                        <p class="date">01.12.2021</p>
+                        <h2>Blog Entry 3 - Title h2</h2>
+                        <p class="description">Croissant jelly beans marzipan sugar plum gummi bears cake. Chocolate bar wafer candy caramels sweet. Topping jelly-o toffee soufflé pudding chupa chups chocolate bar cotton candy croissant. Cheesecake chocolate bar pastry bear claw carrot cake.</p>
+                        <a href="blogpost.html"><div class="btn btn-outline-normal">Read more</div></a>
+                    </div>
+                    <!-- Blog Entry 4 -->
+                    <div id="article-4" class="blog-tile">
+                        <a href="blogpost.html"><div class="article-image"></div></a>
+                        <p class="date">30.11.2021</p>
+                        <h2>Blog Entry 4 - Title h2</h2>
+                        <p class="description">Danish pie shortbread wafer gummies chupa chups ice cream. Oat cake gingerbread tootsie roll jelly beans sweet marzipan. Icing icing soufflé brownie sweet chupa chups. ...</p>
+                        <a href="blogpost.html"><div class="btn btn-outline-normal">Read more</div></a>
+                    </div>
+                    <!-- Blog Entry 5 -->
+                    <div id="article-5" class="blog-tile">
+                        <a href="blogpost.html"><div class="article-image"></div></a>
+                        <p class="date">29.11.2021</p>
+                        <h2>Blog Entry 5 - Title h2</h2>
+                        <p class="description">Apple pie halvah muffin cake tootsie roll soufflé gingerbread chocolate cake halvah. Sesame snaps marshmallow sweet liquorice topping chocolate cake. Muffin bear claw croissant jujubes cake cake. ... </p>
+                        <a href="blogpost.html"><div class="btn btn-outline-normal">Read more</div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer text-centered">
+                <p>Copyright © 2021 Oliver. Alle Rechte vorbehalten.</p>
+            </div>
         </div>
     </body>
 </html>
